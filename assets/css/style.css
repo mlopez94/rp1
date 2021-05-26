@@ -1,0 +1,70 @@
+:root {
+    --primary-color:  #1f2833;
+    --secondary-color: #66fcf1;
+    --third-color: rgb(121, 139, 142);
+    --fourth
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    padding: 20px 35px;
+    background-color: #1f2833;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--secondary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(137, 23, 138, 0.797);
+    
+  }
+
+    /* anchor tags getting rid of text underline */
+    header a {
+        text-decoration: none;
+        color: var(--secondary-color);
+        
+      }
+    
+      header nav {
+      
+        margin: 9px 0;
+      }
+    
+      /* flexing the nav to place items side by side */
+      header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+      }
+    
+      /* Applies spacing to rach list item in the header */
+      header nav ul li a {
+        margin: 0 30px;
+        font-weight: lighter;
+        font-size: 1.55vw;
+        padding: 5px 5px;
+        
+      }
+    
+      /* hover style to nav bar to change color */
+      header nav ul li a:hover {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border-radius: 30px;
+        text-shadow: none;
+      }
+
+
