@@ -41,3 +41,9 @@ body {
 .weather-container {
     border: none;
 }
+
+#cityname-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
