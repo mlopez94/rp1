@@ -13,6 +13,8 @@ header,
 footer {
     padding: 20px;
     background-color: white;
+    mix-blend-mode: multiply;
+     
     
 }
 
@@ -40,6 +42,8 @@ main {
     background-image: url(../images/skyline.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    box-shadow:20px 20px 50px 15px grey; 
+    /* mix-blend-mode: hard-light; */
     
 
 
