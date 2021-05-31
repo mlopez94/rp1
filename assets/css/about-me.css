@@ -1,22 +1,48 @@
 :root {
-  --primary: #0080ff;
+    --light: #f3ede0;
+    --primary: #ccdad1;
+    --secondary: #9caea9;
+    --tertiary: #788585;
+    --light-dark: #6f6866;
+    --buttons: #008CBA;
+    --dark: #38302e;  
+    --text-radius: 50em;
 }
 
 header,
 footer {
-  background: var(--primary);
-  padding: 20px;
-  text-align: center;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #ccdad1;
+    margin: 0;
+    display: inline;
+  }
+
+.headerImg {
+    
+    height: 115px;
 }
 
 body {
-  background-image: url(../images/skyline.png);
-  background-position: center;
-  position: absolute;
+
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  width: 100%;
-  height: 20px;
+
+}
+
+main {
+    background-image: url(../images/skyline.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+
+
 }
 
 .columns {
@@ -65,6 +91,8 @@ h3 {
     text-align: center;
     font-weight: bold;
     text-decoration-line: underline;
+    color: white;
+    text-shadow: 0 0 3px #3d72a3, 0 0 5px #050810;
 
 }
 
@@ -82,6 +110,11 @@ h3 {
   font-weight: bold;
 }
 
+p {
+    color: white;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .close:hover,
 .close:focus {
   color: #000;
@@ -89,16 +122,12 @@ h3 {
   cursor: pointer;
 }
 
-.image1 {
+.image {
     width: 350px;
     height: 150px;
     border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
     
 }
 
-.image3 {
-    width: 350px;
-    height: 150px;
-    border-radius: 8px;
-}
