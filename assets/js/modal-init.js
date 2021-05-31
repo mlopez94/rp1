@@ -10,16 +10,7 @@ var span = document.getElementsByClassName("close")[0];
 
 var txtEmail = document.getElementById("email").value;
 
-// if (isNaN(email) == "") {
-//     alert = "input is not valid"
-// } else {
-//     alert = "input is ok"
-// };
 
-// When the user clicks the button, open the modal 
-// btn.onclick = function() {
-//   modal.style.display = "block";
-// }
 
 // if/else statement logic for empty email string
 $(btn).click(function() {
@@ -38,12 +29,6 @@ span.onclick = function() {
 
 
 
-  
-
-
-
-
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
@@ -51,6 +36,7 @@ window.onclick = function(event) {
   }
 };
 
+// When the user clicks anywhere outside of the modal2, close it
 window.onclick = function(event) {
     if (event.target == modal2) {
       modal2.style.display = "none";
