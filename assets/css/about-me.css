@@ -68,6 +68,10 @@ h3 {
 
 }
 
+.modalHeader h3 {
+    text-decoration-line: none;
+}
+
 
 
 /* The Close Button */
