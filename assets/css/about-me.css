@@ -75,6 +75,12 @@ main {
   color: white;
 }
 
+.modalHeader2 {
+    padding: 2px 20px;
+    background-color: var(--primary);
+    color: white;
+  }
+
 .modalContent {
   background-color: #fefefe;
   margin: auto;
@@ -87,8 +93,14 @@ main {
   animation-duration: 0.4s;
 }
 
-.modalBody {
-  padding: 2px 16px;
+.modalBody p {
+    color: black;
+    text-align: center;
+}
+
+
+.modalHeader h3 {
+    text-decoration-line: none;
 }
 
 h3 {
@@ -100,9 +112,7 @@ h3 {
 
 }
 
-.modalHeader h3 {
-    text-decoration-line: none;
-}
+
 
 
 
