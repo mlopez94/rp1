@@ -88,3 +88,17 @@ h3 {
   text-decoration: none;
   cursor: pointer;
 }
+
+.image1 {
+    width: 350px;
+    height: 150px;
+    border-radius: 8px;
+    
+    
+}
+
+.image3 {
+    width: 350px;
+    height: 150px;
+    border-radius: 8px;
+}
