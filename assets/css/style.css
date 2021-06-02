@@ -149,9 +149,7 @@ header nav ul li a {
 
 /* Hero Style End */
 
-#date-pick {
-    width: 200px;
-}
+
 
 .card {
     margin:5px;
@@ -195,4 +193,9 @@ header nav ul li a {
 .flightHeaders .flightJSON {
     color: var(--dark);
     text-align: center;
+}
+
+.weather-container {
+    display: flex;
+    background-color: var(--secondary);
 }
