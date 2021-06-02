@@ -11,9 +11,8 @@ To make travel planning easier by encorporating air-travel recommendations, weat
 *JQuery 
 
 ## Screenshots
-![ScreenShot of Current Active Webpage 2](./assets/images/eggs.png)
-![ScreenShot of Current Active Webpage 1](./assets/images/eggs1.png)
-![ScreenShot of Current Active Webpage 2](./assets/images/eggs2.png)
-
+![ScreenShot of Current Active Webpage 1](./assets/images/one.png)
+![ScreenShot of Current Active Webpage 2](./assets/images/two.png)
+![ScreenShot of Current Active Webpage 3](./assets/images/three.png)
+![ScreenShot of Current Active Webpage 4](./assets/images/four.png)
 ## Live URL
-https://dwalsh93.github.io/Pokka/

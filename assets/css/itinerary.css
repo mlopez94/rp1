@@ -23,15 +23,18 @@ body {
     color: black;
   }
 
+  .container {
+    align-items: baseline;
+  }
+
   .description {
     white-space: pre-wrap;
-    background-color: rgb(253, 253, 253);
+    background-color: transparent;
   }
 
   input {
     border:blue;
     width: 800px;
-    height: 79px;
     background-color: #d3d3d3;
   }
 
@@ -40,11 +43,12 @@ body {
     border-radius: 15px;
   }
   
-  .row {
+  
+  /* .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;;
-  }
+    border-top: 1px solid white;
+  } */
   
   .hour {
     background-color: #ffffff;
@@ -96,7 +100,6 @@ body {
   }
   
   .colorcode {
-    border-top: 1px dashed #000000;
     padding: 7px;
   }
 
