@@ -177,6 +177,37 @@ ul#horizontal-list li {
 
 /* end inline nav */
 
+ /* Footer styles */
+
+ footer {
+  padding: 50px;
+  width: 100%;
+  position: fixed;
+  margin: 10px 0 0 0;
+  bottom: 0;
+  background: #6f6866;
+}
+
+footer nav {
+   position: absolute;
+   right: 0;
+   top: 50%;
+   transform: translate(-50px, -50%);
+}
+
+footer ul li {
+   display: inline-block;
+   list-style: none;
+   width: 60px;
+   height: 10px;
+   /* background: white; */
+   border-radius: var(--text-radius);
+}
+
+footer ul li:hover {
+   background: black;
+}
+
 
 
 
