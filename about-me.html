@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation-float.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/about-me.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/images/large_travilon.png" class="headerImg" />
+    </header>
+
+    <main>
+      <div class="row">
+        <div class="small-2 large-4 columns">
+          <span><h3>Mission Statement</h3></span>
+
+          <div class="flex-container align-center">
+            <div class="left-thing flex-container">
+              <img
+                src="./assets/images/mission-statement.jpg"
+                alt=""
+                class="image"
+              />
+            </div>
+            <br /><br />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            ultricies et augue vel tempor. Vestibulum dui leo, imperdiet
+            venenatis leo non, faucibus porta lectus. Nunc a purus felis. Sed
+            consequat fermentum eros, quis auctor tortor ultrices nec. Praesent
+            mauris lacus, euismod id elit sed, volutpat elementum tortor.
+            Pellentesque euismod gravida porttitor.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            ultricies et augue vel tempor. Vestibulum dui leo, imperdiet
+            venenatis leo non, faucibus porta lectus. Nunc a purus felis. Sed
+            consequat fermentum eros, quis auctor tortor ultrices nec. Praesent
+            mauris lacus, euismod id elit sed, volutpat elementum tortor.
+            Pellentesque euismod gravida porttitor.
+          </p>
+        </div>
+        <div class="small-4 large-4 columns">
+          <span><h3>About Us</h3></span>
+
+          <div class="flex-container align-center">
+            <div class="left-thing flex-container">
+              <img src="./assets/images/about-us.jpg" alt="" class="image" />
+            </div>
+          </div>
+          <br /><br />
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            ultricies et augue vel tempor. Vestibulum dui leo, imperdiet
+            venenatis leo non, faucibus porta lectus. Nunc a purus felis. Sed
+            consequat fermentum eros, quis auctor tortor ultrices nec. Praesent
+            mauris lacus, euismod id elit sed, volutpat elementum tortor.
+            Pellentesque euismod gravida porttitor.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            ultricies et augue vel tempor. Vestibulum dui leo, imperdiet
+            venenatis leo non, faucibus porta lectus. Nunc a purus felis. Sed
+            consequat fermentum eros, quis auctor tortor ultrices nec. Praesent
+            mauris lacus, euismod id elit sed, volutpat elementum tortor.
+            Pellentesque euismod gravida porttitor.
+          </p>
+        </div>
+        <div class="small-6 large-4 columns">
+          <span><h3>Contact Us</h3></span>
+          <div class="flex-container align-center">
+            <div class="left-thing flex-container">
+              <img src="./assets/images/contact-me.jpg" alt="" class="image" />
+            </div>
+            <br /><br />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            ultricies et augue vel tempor. Vestibulum dui leo, imperdiet
+            venenatis leo non, faucibus porta lectus. Praesent mauris lacus,
+            euismod id elit sed, volutpat elementum tortor. Pellentesque euismod
+            gravida porttitor.
+          </p>
+          <div id="inputFields">
+            <span>First Name:</span>
+            <input type="text" id="firstName" />
+            <span>Last Name:</span>
+            <input type="text" id="lastName" />
+            <span>Email:</span>
+            <input type="email" id="email" placeholder="urName@domain.com" />
+            <p>
+              <button class="button" id="myBtn">SUBMIT</button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Setup -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modalContent">
+          <div class="modalHeader">
+            <span class="close">&times;</span>
+            <h3>Submitted</h3>
+          </div>
+          <div class="modalBody">
+            <p>We will get back to you as soon as we can</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="myModal2" class="modal">
+        <!-- Modal content -->
+        <div class="modalContent">
+          <div class="modalHeader">
+            <h3>No info has been entered!</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h4>Footer Content</h4>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/plugins/foundation.core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/plugins/foundation.reveal.min.js"></script>
+    <script src="./assets/js/modal-init.js"></script>
+  </body>
+</html>
