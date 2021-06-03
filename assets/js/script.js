@@ -267,9 +267,9 @@ function weatherFetch() {
                     renderWeatherData(data);
                 });
             }
-            //display error message if no response
+            //reload page if error or no response
             else {
-                alert("INVALID ENTRY"); /// i could be wrong, but didn't they say no alerts?
+                location.reload(); /// i could be wrong, but didn't they say no alerts?
             }
         })
 
