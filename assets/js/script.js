@@ -251,9 +251,9 @@ function weatherFetch() {
                 });
             }
 
-            //display error message if no response
+            //reload page if error or no response
             else {
-                alert("INVALID ENTRY");
+                location.reload();
             }
         })
 
