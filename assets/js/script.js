@@ -253,7 +253,7 @@ function weatherFetch() {
 
             //display error message if no response
             else {
-                alert("INVALID ENTRY");
+                return("INVALID ENTRY");
             }
         })
 
@@ -269,7 +269,7 @@ function weatherFetch() {
             }
             //display error message if no response
             else {
-                alert("INVALID ENTRY"); /// i could be wrong, but didn't they say no alerts?
+                return("INVALID ENTRY"); /// i could be wrong, but didn't they say no alerts?
             }
         })
 
