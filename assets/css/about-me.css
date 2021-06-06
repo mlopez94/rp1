@@ -185,3 +185,12 @@ p {
 span {
     color: white;
 }
+
+@media only screen and (max-width: 400px) {
+  .hero {
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 190px;
+  }
+}

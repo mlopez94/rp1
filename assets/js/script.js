@@ -150,37 +150,37 @@ fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices
     } else {
      
 
-    for (var i = 0; i < json.Carriers.length; i++) {
-    //create p for airline
-    var airlinep = document.createElement("p");
-    airline.appendChild(airlinep);
-    airlinep.setAttribute("class" ,"flightJSON")
-    airlinep.innerHTML = json.Carriers[i].Name;
+    // for (var i = 0; i < json.Carriers.length; i++) {
+    // //create p for airline
+    // var airlinep = document.createElement("p");
+    // airline.appendChild(airlinep);
+    // airlinep.setAttribute("class" ,"flightJSON")
+    // airlinep.innerHTML = json.Carriers[i].Name;
 
-    //create p for date
-    var DepartureDatep = document.createElement("p");
-    DepartureDate.appendChild(DepartureDatep);
-    DepartureDatep.setAttribute("class" ,"flightJSON")
-    var dateParser = json.Quotes[i].OutboundLeg.DepartureDate.split("T" , 1);
-    DepartureDatep.innerHTML = dateParser;
+    // //create p for date
+    // var DepartureDatep = document.createElement("p");
+    // DepartureDate.appendChild(DepartureDatep);
+    // DepartureDatep.setAttribute("class" ,"flightJSON")
+    // var dateParser = json.Quotes[i].OutboundLeg.DepartureDate.split("T" , 1);
+    // DepartureDatep.innerHTML = dateParser;
 
-    //create p for direct
-    var DirectFlightp = document.createElement("p");
-    DirectFlight.appendChild(DirectFlightp);
-    DirectFlightp.setAttribute("class" ,"flightJSON")
-    if (json.Quotes[i].Direct == true) {
-        DirectFlightp.innerHTML = "Yassss, we only fly direct"
-    } else {
-        DirectFlightp.innerHTML = "N"
-    };
-    //DirectFlightp.innerHTML = DirectFlight;
+    // //create p for direct
+    // var DirectFlightp = document.createElement("p");
+    // DirectFlight.appendChild(DirectFlightp);
+    // DirectFlightp.setAttribute("class" ,"flightJSON")
+    // if (json.Quotes[i].Direct == true) {
+    //     DirectFlightp.innerHTML = "Yassss, we only fly direct"
+    // } else {
+    //     DirectFlightp.innerHTML = "N"
+    // };
+    // //DirectFlightp.innerHTML = DirectFlight;
 
-    //create p for direct
-    var MinPricep = document.createElement("p");
-    MinPrice.appendChild(MinPricep);
-    MinPricep.setAttribute("class" ,"flightJSON")
-    MinPricep.innerHTML = "$" + json.Quotes[i].MinPrice;
-    };
+    // //create p for direct
+    // var MinPricep = document.createElement("p");
+    // MinPrice.appendChild(MinPricep);
+    // MinPricep.setAttribute("class" ,"flightJSON")
+    // MinPricep.innerHTML = "$" + json.Quotes[i].MinPrice;
+    // };
 
 
 

@@ -185,7 +185,7 @@ ul#horizontal-list li {
  footer {
   padding: 50px;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   margin: 10px 0 0 0;
   bottom: 0;
   background: #6f6866;
@@ -207,9 +207,9 @@ footer ul li {
    border-radius: var(--text-radius);
 }
 
-footer ul li:hover {
+/* footer ul li:hover {
    background: black;
-}
+} */
 
 
 
